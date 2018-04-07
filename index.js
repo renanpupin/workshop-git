@@ -4,6 +4,8 @@ module.exports = class Calculator{
 		return String("a = "+a, "b = "+b);
 	}
 
-	// implementar as outras funções aqui
+	sum = print(a,b){
+		      return String("A soma a+b e ",+a + +b);
+	}// implementar as outras funções aqui
 }
 
