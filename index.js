@@ -11,6 +11,12 @@ module.exports = class Calculator{
 	sum(a,b){
 		return a+b;
 	}
+	
+	divide (a,b){
+		if(b != 0)
+			return a/b;
+		else return error;
+	}
 	// implementar as outras funções aqui
 }
 
