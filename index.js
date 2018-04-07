@@ -21,6 +21,10 @@ module.exports = class Calculator{
 		return ( b == 0 ? String("Division by zero!") : a/b ) ;
 	}
 	
+	sqrt(a,b)
+	{
+		return Math.pow(a,1/b)
+	}
 	// implementar as outras funções aqui
 }
 
