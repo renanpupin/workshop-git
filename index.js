@@ -19,6 +19,9 @@ module.exports = class Calculator{
 		} else {
 			console.log("ERROR");
 		}
+
+	multiply(a,b) {
+		return a*b;
 	}
 }
 
