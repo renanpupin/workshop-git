@@ -10,6 +10,12 @@ module.exports = class Calculator{
 	subtract(a,b){
 		return a-b;
 	}
+
+		
+	divide(a,b)
+	{
+		return ( b == 0 ? String("Division by zero!") : a/b ) ;
+	}
 	
 	// implementar as outras funções aqui
 }
