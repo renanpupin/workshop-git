@@ -7,6 +7,7 @@ Material utilizado durante o minicurso de Git apresentado aos alunos da FCT - UN
 ## Instalação
 
 ```sh
+git clone https://github.com/renanpupin/workshop-git
 cd workshop-git
 npm install
 ```
