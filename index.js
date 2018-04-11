@@ -27,4 +27,8 @@ module.exports = class Calculator {
     square(a) {
         return a * a;
     }
+
+    pow(a,b) {
+        return Math.pow(a,b);
+    }
 }
