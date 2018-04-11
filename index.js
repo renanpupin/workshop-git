@@ -8,10 +8,6 @@ module.exports = class Calculator {
         return a + b;
     }
 
-    subtract(a, b) {
-        return a - b;
-    }
-
     multiply(a, b) {
         return a * b;
     }
@@ -24,11 +20,15 @@ module.exports = class Calculator {
         }
     }
 
+    pow(a,b) {
+        return Math.pow(a,b);
+    }
+  
     square(a) {
         return a * a;
     }
-
-    pow(a,b) {
-        return Math.pow(a,b);
+  
+    sqrt(a) {
+        return Math.pow(a);
     }
 }
